@@ -1,0 +1,17 @@
+Webots Project File version R2023b
+perspectives: 000000ff00000000fd0000000200000001000002eb000003e1fc0200000001fb0000001400540065007800740045006400690074006f00720100000016000003e1000000a200ffffff0000000300000a0000000168fc0100000002fb0000000e0043006f006e0073006f006c006501000000000000073f0000000000000000fb0000001a0043006f006e0073006f006c00650041006c006c0041006c006c010000000000000a000000005400ffffff0000070f000003e100000001000000020000000100000008fc00000000
+simulationViewPerspectives: 000000ff00000001000000020000015a000005af0100000006010000000101
+sceneTreePerspectives: 000000ff000000010000000300000016000000c0000001050100000006010000000201
+maximizedDockId: -1
+centralWidgetVisible: 1
+orthographicViewHeight: 1
+textFiles: 13 "protos/RobottiCamera.proto" "plugins/robot_windows/robotti_window/robotti_window.c" "controllers/kb_agent/kb_agent.py" "controllers/kb_agent/stefania_env.py" "controllers/bvh_animation/bvh_animation.c" "libraries/bvh_util/src/bvh_util.c" "motions/walk.bvh" "protos/Robotti.proto" "controllers/my_controller/my_controller.c" "plugins/robot_windows/robotti_window/robotti_window.js" "plugins/robot_windows/robotti_window/robotti_window.html" "../../webots/projects/vehicles/protos/generic/Tractor.proto" "../../webots/projects/objects/solids/protos/SolidBox.proto" "worlds/.robotti_demo.wbproj"
+consoles: Console:All:All
+renderingDevicePerspectives: Robotti:camera_downwards1;0;1;0;0
+renderingDevicePerspectives: Robotti:camera_downwards2;0;1;0;0
+renderingDevicePerspectives: Robotti:camera_downwards3;0;1;0;0
+renderingDevicePerspectives: Robotti:camera_downwards4;0;1;0;0
+renderingDevicePerspectives: Robotti:front_bottom_camera;0;0.911133;0;0
+renderingDevicePerspectives: Robotti:front_top_camera;0;0.911133;0;0
+renderingDevicePerspectives: Robotti:rear_camera;0;0.911133;0;0
+renderingDevicePerspectives: Robotti:recognition display;1;0.911133;0;0
