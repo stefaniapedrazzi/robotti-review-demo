@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' type='text/css' href='robotti_window.css'>
+  <link rel="icon" type="image/png" href="https://cyberbotics.com/assets/images/webots.png">
+</head>
+
+<body>
+  <div id="content">
+    <h1>Robotti Window</h1>
+
+    <fieldset class="group-box">
+      <legend class="group-box-legend">Robot Camera</legend>
+      <img id='robot-camera' alt="Image not available." height=480>
+    </fieldset>
+    <p/>
+    <fieldset class="group-box">
+      <legend class="group-box-legend">Environment Manager</legend>
+      <p>
+        Spawn or remove obstacles from the simulation environment.
+      </p>
+      <div>
+        <button id="add-button" class="environment-button" type="button" onclick="addObstacle(this)"><span>Add obstacle</span></button>
+        <span argin-left="5px">DEF name:</span>
+        <input type="text" id="add-def-name" name="add-def-nam" class="text-field" placeholder="<obstacle name>">
+        <span>class:</span>
+        <select id="add-class" name="add-class" class="combo-box">
+          <option value="Cat">Cat</option>
+          <option value="Cow">Cow</option>
+          <option value="Deer">Deer</option>
+          <option value="Dog">Dog</option>
+          <option value="Fox">Fox</option>
+          <option value="Horse">Horse</option>
+          <option value="Rabbit">Rabbit</option>
+          <option value="Sheep">Sheep</option>
+        </select>
+        <span>x:</span>
+        <input type="number" id="add-position-x" name="add-position-x" class="number-field" placeholder="NaN">
+        y:
+        <input type="number" id="add-position-y" name="add-position-y" class="number-field" placeholder="NaN">
+      </div>
+      <p/>
+      <div>
+        <button id="remove-button" class="environment-button" type="button" onclick="removeObstace(this)"><span>Remove obstacle</span></button>
+        <span argin-left="5px">DEF name:</span>
+        <input type="text" id="remove-obstacle-id" name="remove-obstacle-id" class="text-field" placeholder="<obstacle name>">
+      </div>
+    </fieldset>
+  </div>
+  <script type="module" src="robotti_window.js"></script>
+</body>
+
+</html>
